@@ -1,0 +1,95 @@
+<div class="home-top-bar">
+  <ul class="list-inline home-left-nav">
+    <li class="list-inline-item">
+      Item 1
+    </li>
+    <li class="list-inline-item">
+      Item 1
+    </li>
+    <li class="list-inline-item">
+      Item 1
+    </li>
+    <li class="list-inline-item">
+      Item 1
+    </li>
+  </ul>
+  <ul class="list-inline home-right-nav">
+    <li class="list-inline-item" (click)="publishYourStory();">
+      Publish your own Experience
+    </li>
+    <!-- <li class="list-inline-item">
+      Add suggestions
+    </li> -->
+  </ul>
+</div>
+
+<div class="home-body-container">
+
+  <div class="home-search-container">
+    <h2>Experience the Experiences from Experienced</h2>
+    <div class="input-group input-group-md home-search-box">
+      <input type="text" class="form-control input-search" #searchBox (keyup.enter)="onSearchEnter(searchBox.value)"
+        placeholder="Explore Experiences" aria-label="Explore Experiences" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="btn input-group-text home-search-btn" id="basic-addon2">
+          <i class="fa fa-search fa-lg"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-featured-container mt-5 mb-5">
+    <h5>Featured</h5>
+    <div class="featured-content">
+      <div class="card-columns">
+        <div class="card" *ngFor="let item of homePanelData; let i = index">
+          <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.desc}}</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated {{item.lastUpdated}} mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-trending-container mt-5 mb-5">
+    <h5>Trending This Week</h5>
+    <div class="trending-content">
+      <div class="card-columns">
+        <div class="card" *ngFor="let item of homePanelData; let i = index">
+          <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.desc}}</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated {{item.lastUpdated}} mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-popular-container mt-5 mb-5">
+    <h5>Most Popular</h5>
+    <div class="popular-content">
+      <div class="card-columns">
+        <div class="card" *ngFor="let item of homePanelData; let i = index">
+          <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.desc}}</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated {{item.lastUpdated}} mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

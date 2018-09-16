@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <label>Title</label>
+      <input type="text" #newPostTitle class="form-control">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <label>Select appropriate category</label>
+      <input type="text" #categoryName class="form-control">
+    </div>
+    <div class="col-sm-6">
+      <label>Select appropriate sub-category</label>
+      <input type="text" #subCategoryName class="form-control" [(ngModel)]="categoryName">
+    </div>
+  </div>
+
+  <div class="post-editor">
+      <!-- <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+          <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" name="firstName" [(ngModel)]="dataModel.firstName"
+               #firstName="ngModel" required />
+          </div>
+    </form> -->
+  </div>
+</div>

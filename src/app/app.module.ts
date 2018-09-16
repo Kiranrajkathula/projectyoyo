@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { EditorModule } from '@tinymce/tinymce-angular';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +10,7 @@ import { SearchComponent } from './search/search.component';
 import { AuthorComponent } from './author/author.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewPostComponent } from './new-post/new-post.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,15 @@ import { FooterComponent } from './footer/footer.component';
     SearchComponent,
     AuthorComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NewPostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    EditorModule ,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

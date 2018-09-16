@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   searchExperience: string;
   homePanelData = [];
-  constructor() {}
+  constructor(
+    private router: Router
+  ) {}
 
   ngOnInit() {
     this.searchExperience = '';
@@ -55,5 +58,7 @@ export class HomeComponent implements OnInit {
     this.searchExperience = value;
   }
 
-  publishYourStory() {}
+  publishYourStory() {
+    this.router.navigate(['/share']);
+  }
 }

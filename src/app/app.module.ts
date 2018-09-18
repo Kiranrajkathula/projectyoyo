@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { EditorModule } from '@tinymce/tinymce-angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { QuillModule } from 'ngx-quill';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +11,7 @@ import { AuthorComponent } from './author/author.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewPostComponent } from './new-post/new-post.component';
+import { ViewPostComponent } from './view-post/view-post.component';
 
 @NgModule({
   declarations: [
@@ -20,14 +21,15 @@ import { NewPostComponent } from './new-post/new-post.component';
     AuthorComponent,
     HeaderComponent,
     FooterComponent,
-    NewPostComponent
+    NewPostComponent,
+    ViewPostComponent
   ],
   imports: [
     BrowserModule,
-    EditorModule ,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    QuillModule
   ],
   providers: [],
   bootstrap: [AppComponent]

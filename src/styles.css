@@ -2,3 +2,9 @@
 
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
+@import "https://cdn.quilljs.com/1.2.2/quill.snow.css";
+@import "https://cdn.quilljs.com/1.2.2/quill.bubble.css";
+
+.clickable {
+  cursor: pointer;
+}

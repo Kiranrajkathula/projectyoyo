@@ -59,6 +59,6 @@ export class HomeComponent implements OnInit {
   }
 
   publishYourStory() {
-    this.router.navigate(['/share']);
+    this.router.navigate(['/create']);
   }
 }

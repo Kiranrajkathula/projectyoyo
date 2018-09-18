@@ -1,28 +1,37 @@
 <div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <label>Title</label>
-      <input type="text" #newPostTitle class="form-control">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <label>Select appropriate category</label>
-      <input type="text" #categoryName class="form-control">
-    </div>
-    <div class="col-sm-6">
-      <label>Select appropriate sub-category</label>
-      <input type="text" #subCategoryName class="form-control" [(ngModel)]="categoryName">
-    </div>
-  </div>
+  <div class="experience-builder-container mt-3">
+    <div class="row">
+      <div class="col-sm-9">
+        <h6>Title</h6>
+        <input type="text" #newPostTitle [(ngModel)]="experienceTitle" class="form-control">
 
-  <div class="post-editor">
-      <!-- <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
-          <div class="form-group">
-              <label for="firstName">First Name</label>
-              <input type="text" class="form-control" name="firstName" [(ngModel)]="dataModel.firstName"
-               #firstName="ngModel" required />
-          </div>
-    </form> -->
+        <div class="title-builder mt-2">
+          <button type="button" class="btn btn-light btn-sm" (click)="generatePostUrl()">
+            <span *ngIf="!showPostLink">Generate link</span>
+            <span *ngIf="showPostLink">Regenerate link</span>
+          </button>
+          <small class="font-italic">(Please enter title, select category and subcategory name to generate url)</small>
+          <p *ngIf="showPostLink">Sample Link: <span [innerText]="generatedPostUrl"></span></p>
+        </div>
+        <div class="post-editor mt-3">
+          <quill-editor #editor [modules]="modules" [style]="{height: '600px'}" (onEditorCreated)="setFocus($event)"
+            (onContentChanged)="getUpdatedContent($event)"></quill-editor>
+
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <label>Select Appropriate category</label>
+        <input type="text" class="form-control" [(ngModel)]="categoryName" placeholder="Ex: travel, food, interview">
+
+        <label class="mt-3">Select appropriate sub-category</label>
+        <input type="text" class="form-control" [(ngModel)]="subcategoryName" placeholder="Ex: place, cuisine, company">
+
+        <button type="button" class="btn btn-primary btn-block mt-3"> Save & Finish later</button>
+        <button type="button" class="btn btn-success btn-block mt-3"> Publish </button>
+
+        <label class="mt-4">Add tags</label>
+        <input type="text" class="form-control" placeholder="enter relevant tags">
+      </div>
+    </div>
   </div>
 </div>

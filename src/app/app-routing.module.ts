@@ -2,6 +2,7 @@ import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NewPostComponent } from './new-post/new-post.component';
+import { ViewPostComponent } from './view-post/view-post.component';
 
 const routes: Routes = [
   {
@@ -10,8 +11,12 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'share',
+    path: 'create',
     component: NewPostComponent
+  },
+  {
+    path: ':categoryName/:subcatName/:postTitle',
+    component: ViewPostComponent
   }
 ];
 

@@ -1,0 +1,176 @@
+{
+  "success": true,
+  "data": {
+    "featured_posts": [
+      {
+        "post_id": 1,
+        "post_author": "Kiran Raj",
+        "post_title": "My First Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 2,
+        "post_author": "Kiran Raj",
+        "post_title": "My Second Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 3,
+        "post_author": "Kiran Raj",
+        "post_title": "My Third Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 4,
+        "post_author": "Kiran Raj",
+        "post_title": "My Fourth Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 5,
+        "post_author": "Kiran Raj",
+        "post_title": "My Fifth Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      }
+    ],
+    "trending_posts": [
+      {
+        "post_id": 1001,
+        "post_author": "Kiran Raj",
+        "post_title": "My First Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1002,
+        "post_author": "Kiran Raj",
+        "post_title": "My Second Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1003,
+        "post_author": "Kiran Raj",
+        "post_title": "My Third Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1004,
+        "post_author": "Kiran Raj",
+        "post_title": "My Fourth Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1005,
+        "post_author": "Kiran Raj",
+        "post_title": "My Fifth Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      }
+    ],
+    "mostpopular_posts": [
+      {
+        "post_id": 1001,
+        "post_author": "Kiran Raj",
+        "post_title": "My First Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1002,
+        "post_author": "Kiran Raj",
+        "post_title": "My Second Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1003,
+        "post_author": "Kiran Raj",
+        "post_title": "My Third Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1004,
+        "post_author": "Kiran Raj",
+        "post_title": "My Fourth Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      },
+      {
+        "post_id": 1005,
+        "post_author": "Kiran Raj",
+        "post_title": "My Fifth Post",
+        "post_desc": "This card has supporting text below as a natural lead-in to additional content.",
+        "post_tags": ["ladakh", "adventure", "bike trip"],
+        "post_created": 10000302032,
+        "post_url": "myexperience.in/travel/lakadh/my-first-post-by-kiranraj",
+        "post_category": "travel",
+        "post_subcategory": "ladakh dairies"
+      }
+    ]
+  }
+}

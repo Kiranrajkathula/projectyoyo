@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewPostComponent } from './new-post/new-post.component';
 import { ViewPostComponent } from './view-post/view-post.component';
+import { HomeService } from './home/services/home.service';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import { ViewPostComponent } from './view-post/view-post.component';
     ReactiveFormsModule,
     QuillModule
   ],
-  providers: [],
+  providers: [
+    HomeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -29,7 +29,7 @@ export class NewPostComponent implements OnInit {
         container: [
           [{ font: [] }],
           [{ size: ['small', false, 'large', 'huge'] }],
-          ['bold', 'italic', 'underline', 'strike'],
+          ['bold', 'italic', 'underline'],
           [{ header: 1 }, { header: 2 }],
           [{ color: [] }, { background: [] }],
           [{ list: 'ordered' }, { list: 'bullet' }],

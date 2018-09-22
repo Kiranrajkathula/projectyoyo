@@ -17,39 +17,44 @@ export class HomeComponent implements OnInit {
     this.searchExperience = '';
     this.homePanelData = [
       {
-        title: 'hello card',
+        title: 'Exp Title',
         imgSrc: 'https://via.placeholder.com/350x150',
         desc:
           'This card has supporting text below as a natural lead-in to additional content.',
-        lastUpdated: 3
+        lastUpdated: 3,
+        category: 'Travel'
       },
       {
-        title: 'hello card',
+        title: 'Exp Title',
         imgSrc: 'https://via.placeholder.com/350x150',
         desc:
           'This card has supporting text below as a natural lead-in to additional content.',
-        lastUpdated: 3
+        lastUpdated: 3,
+        category: 'Travel'
       },
       {
-        title: 'hello card',
+        title: 'Exp Title',
         imgSrc: 'https://via.placeholder.com/350x150',
         desc:
           'This card has supporting text below as a natural lead-in to additional content.',
-        lastUpdated: 3
+        lastUpdated: 3,
+        category: 'Travel'
       },
       {
-        title: 'hello card',
+        title: 'Exp Title',
         imgSrc: 'https://via.placeholder.com/350x150',
         desc:
           'This card has supporting text below as a natural lead-in to additional content.',
-        lastUpdated: 3
+        lastUpdated: 3,
+        category: 'Travel'
       },
       {
-        title: 'hello card',
+        title: 'Exp Title',
         imgSrc: 'https://via.placeholder.com/350x150',
         desc:
           'This card has supporting text below as a natural lead-in to additional content.',
-        lastUpdated: 3
+        lastUpdated: 3,
+        category: 'Travel'
       }
     ];
   }
@@ -59,6 +64,6 @@ export class HomeComponent implements OnInit {
   }
 
   publishYourStory() {
-    this.router.navigate(['/create']);
+    this.router.navigate(['/edit']);
   }
 }

@@ -5,6 +5,13 @@
 @import "https://cdn.quilljs.com/1.2.2/quill.snow.css";
 @import "https://cdn.quilljs.com/1.2.2/quill.bubble.css";
 
+body {
+  font-size: 14px;
+}
 .clickable {
   cursor: pointer;
+}
+
+.bg-primary {
+  background-color: #0087E2!important;
 }

@@ -1,3 +1,4 @@
+import { AuthorComponent } from './author/author.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -11,8 +12,12 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'create',
+    path: 'edit',
     component: NewPostComponent
+  },
+  {
+    path: 'profile',
+    component: AuthorComponent
   },
   {
     path: ':categoryName/:subcatName/:postTitle',
